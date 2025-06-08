@@ -4,7 +4,7 @@ print(f"I'm the greatest {nome}")
 
 # Print - Argumentos opcionais: sep, end, file, flush
 
-print("Hello", "World", sep=" ", end="!", file=None, flush=False)
+print("Hello", "World", sep=" ", end="! ", file=None, flush=False)
 
 nome2 = "Homer"
 sobrenome2 = "Simpson"
