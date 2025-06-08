@@ -1,2 +1,2 @@
-# Python_DIO
-Códigos Python desenvolvidos para testes e exercícios durante formações e bootcamps de Python na DIO - Digital Innovation One
+# Formacao_Python_Fundamentals
+Códigos Python desenvolvidos durante a Formação Python Fundamentals da DIO - Digital Innovation One
