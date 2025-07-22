@@ -1,4 +1,4 @@
-
+import sys
 saldo = 2000.00
 
 opcao = int(input("Informe uma opção: \n [1] Sacar \n [2] Extrato \n [3] Depositar \n [4] Sair \n"))
