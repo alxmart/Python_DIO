@@ -1,30 +1,3 @@
-"""
-saldo = 2000.00
-
-saque = float(input("Informe o valor do saque: "))
-
-if saldo >= saque:
-    print("Realizando o saque")
-    saldo -= saque
-    print("Saldo atual: R$ %.2f" %saldo)
-else:
-    print("Saldo insuficiente")
-    print("Saldo atual: R$ %.2f" %saldo)
-"""
-
-"""
-saque = float(input("Informe o valor do saque: "))
-
-if saldo >= saque:    
-    saldo = saldo - saque
-    print("Saque efetuado com sucesso!")
-    print("Saldo atual: R$ %.2f" % saldo)
-elif saldo < saque:
-    print("Saldo insuficiente!")
-else:
-    #print("Valor inválido!")
-    sys.exit("Opção inválida")
-"""
 
 saldo = 2000.00
 
