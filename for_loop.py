@@ -1,6 +1,5 @@
 
-#texto = input("Informe um texto: ")
-texto = ""
+texto = input("Informe um texto: ")
 
 VOGAIS = "AEIOU"
 
