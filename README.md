@@ -1,2 +1,2 @@
 # Formacao_Python_Fundamentals
-Códigos Python desenvolvidos durante a Formação Python Fundamentals da DIO - Digital Innovation One
+Códigos Python desenvolvidos durante cursos de Python da DIO - Digital Innovation One
