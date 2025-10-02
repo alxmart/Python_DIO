@@ -1,3 +1,4 @@
+
 def exibir_msg():
     print("Mensagem exibida")
 
@@ -7,8 +8,6 @@ def exibir_msg2(nome):
 def exibir_msg3(nome="Usuário"):
     print(f"Olá, {nome}!")
 
-
-
 exibir_msg()
 
 exibir_msg2("Homer")
@@ -16,3 +15,16 @@ exibir_msg2("Homer")
 exibir_msg3()
 
 exibir_msg3("Bart")
+
+
+
+
+
+
+
+
+
+
+
+
+
