@@ -3,13 +3,14 @@
 
 #  +   -   /  *  % (módulo)  ** (exponenciação)
 
-
 # Operadores de Comparação
 
 #  >   >=   <   <=   ==  !=
 
 saldo = 450
+
 saque = 200
+
 limite = 3000
 
 print(saldo > saque)
@@ -30,10 +31,11 @@ saldo >= saque and saque <= limite
 
 # is  is not
 
-
 # Operadores de Associação
 curso = "Curso de Python"
+
 print("Python"in curso)
 
 print("Java" in curso)
+
 print("Java" not in curso)

@@ -1,5 +1,4 @@
 """
-
 Instrutor: @guicarvalho (Lkd / GitHub)
 
 Python / Criação: 1989 - Guido Van Rossum
@@ -27,6 +26,5 @@ Modo interativo:
 > help()
 > help(100) # q para sair do help
 > 
-
 
 """
