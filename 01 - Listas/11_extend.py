@@ -1,3 +1,4 @@
+
 linguagens = ["python", "js", "c"]
 
 print(linguagens)  # ["python", "js", "c"]
