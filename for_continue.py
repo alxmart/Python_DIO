@@ -4,8 +4,7 @@ for num in range(100):
         #print(num, end=" ")
         if num == 12:
             continue
-        print(num)
+        print(f"Numero: {num} ")
     else:
         print(f"{num} é ímpar\n", end=" ")
 print()
-

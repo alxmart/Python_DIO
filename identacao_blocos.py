@@ -10,7 +10,7 @@ def sacar(valor: float) -> None:
     else:
         print("Saldo insuficiente para saque")
         print("Saldo: R$ %.2f"  %saldo)
-        print("Valor do saque: R$ %.2f"  %valor)
+        print("Valor do saque: R$ %.2f"  % valor)
         print("Operação não realizada")
 
     print("Obrigado por usar o nosso banco\n")
