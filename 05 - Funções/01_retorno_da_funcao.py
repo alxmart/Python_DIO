@@ -9,6 +9,12 @@ def retorna_antecessor_e_sucessor(numero):
 
     return antecessor, sucessor
 
+def func3():
+    print("Hello")  # Retorna None 
+    # return None
 
 print(calcular_total([10, 20, 34]))  # 64
-print(retorna_antecessor_e_sucessor(10))  # (9, 11)
+
+print(retorna_antecessor_e_sucessor(10))  # (9, 11) (Retorna em uma tupla)
+
+print(func3())
