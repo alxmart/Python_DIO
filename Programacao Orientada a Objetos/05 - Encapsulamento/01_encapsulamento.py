@@ -1,3 +1,4 @@
+
 class Conta:
     def __init__(self, nro_agencia, saldo=0):
         self._saldo = saldo
@@ -17,6 +18,9 @@ class Conta:
 
 
 conta = Conta("0001", 100)
+
 conta.depositar(100)
+
 print(conta.nro_agencia)
+
 print(conta.mostrar_saldo())

@@ -1,3 +1,4 @@
+
 class Foo:
     def __init__(self, x=None):
         self._x = x
@@ -17,7 +18,9 @@ class Foo:
 
 foo = Foo(10)
 print(foo.x)
+
 del foo.x
 print(foo.x)
+
 foo.x = 10
 print(foo.x)
