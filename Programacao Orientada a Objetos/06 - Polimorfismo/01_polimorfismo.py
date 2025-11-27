@@ -1,12 +1,12 @@
+
 class Passaro:
     def voar(self):
         print("Voando...")
 
-
 class Pardal(Passaro):
     def voar(self):
         print("Pardal pode voar")
-
+        #super().voar()
 
 class Avestruz(Passaro):
     def voar(self):
@@ -17,7 +17,6 @@ class Avestruz(Passaro):
 class Aviao(Passaro):
     def voar(self):
         print("Avião está decolando...")
-
 
 def plano_voo(obj):
     obj.voar()
