@@ -12,6 +12,7 @@ def mostrar_valores(*objs):
     for obj in objs:
         print(obj)
 
+
 aluno_1 = Estudante("Guilherme", 1)
 aluno_2 = Estudante("Giovanna", 2)
 
