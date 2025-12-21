@@ -1,5 +1,5 @@
-from abc import ABC, abstractmethod, abstractproperty
 
+from abc import ABC, abstractmethod, abstractproperty
 
 class ControleRemoto(ABC):
     @abstractmethod
@@ -15,7 +15,6 @@ class ControleRemoto(ABC):
     def marca(self):
         pass
 
-
 class ControleTV(ControleRemoto):
     def ligar(self):
         print("Ligando a TV...")
@@ -28,7 +27,6 @@ class ControleTV(ControleRemoto):
     @property
     def marca(self):
         return "Philco"
-
 
 class ControleArCondicionado(ControleRemoto):
     def ligar(self):
@@ -43,12 +41,10 @@ class ControleArCondicionado(ControleRemoto):
     def marca(self):
         return "LG"
 
-
 controle = ControleTV()
 controle.ligar()
 controle.desligar()
 print(controle.marca)
-
 
 controle = ControleArCondicionado()
 controle.ligar()
