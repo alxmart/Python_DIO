@@ -1,6 +1,10 @@
 
 from abc import ABC, abstractmethod, abstractproperty
 
+# =======================================================
+# Abstracproperty está depreciado a partir do Python 3.3
+# =======================================================
+
 class ControleRemoto(ABC):
     @abstractmethod
     def ligar(self):
