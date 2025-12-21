@@ -1,4 +1,6 @@
+
 def meu_decorador(funcao):
+    
     def envelope(*args, **kwargs):
         print("faz algo antes de executar")
         resultado = funcao(*args, **kwargs)
@@ -15,5 +17,7 @@ def ola_mundo(nome, outro_argumento):
 
 
 resultado = ola_mundo("João", 1000)
+
 print(resultado)
+
 print(ola_mundo)

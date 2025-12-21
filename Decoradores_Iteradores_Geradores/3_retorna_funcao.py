@@ -1,3 +1,4 @@
+
 def calculadora(operacao):
     def soma(a, b):
         return a + b
@@ -24,9 +25,12 @@ def calculadora(operacao):
 
 op = calculadora("+")
 print(op(2, 2))
+
 op = calculadora("-")
 print(op(2, 2))
+
 op = calculadora("*")
 print(op(2, 2))
+
 op = calculadora("/")
 print(op(2, 2))
